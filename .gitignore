@@ -1,0 +1,17 @@
+# Resolved IP cache. Contains a map of internal addresses to resource names,
+# which is exactly the kind of thing not to publish.
+enrichment/ip-cache.json
+enrichment/*.json.tmp
+
+# Downloaded Athena results and the generated account lookup. Both contain real
+# account IDs, account names and internal IP addresses.
+reports/
+*.csv
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
