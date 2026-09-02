@@ -1,0 +1,9 @@
+pandas==2.2.3
+
+# Wiz Python SDK. Only needed if you use the Wiz lookup path; the script runs
+# without it when invoked with --cache-only.
+# Install from the vendor-hosted tarball, per the Wiz SDK documentation:
+#   https://docs.wiz.io/docs/python-sdk
+#
+# Pin the version you have validated rather than tracking latest.
+# https://downloads.wiz.io/customer-files/wiz-sdk-python/wiz-sdk-0.9.10.tar.gz
